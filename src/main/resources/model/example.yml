@@ -1,0 +1,7 @@
+model:
+  # 模型ID
+  test:
+    # 交互播放动画
+    open: open_animation
+    # 播放多久后不可见，20为1秒
+    time: 100

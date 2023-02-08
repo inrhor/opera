@@ -1,0 +1,18 @@
+treasure:
+  # 奖励ID
+  测试:
+    # 可视条件
+    condition: ""
+    # 脚本奖励
+    reward: |
+      tell "&f"
+      tell color "&{#645CBB}发现&{#A084DC}了宝&{#BFACE2]藏啦"
+      tell "&f"
+  test2:
+    model: test
+    condition: |
+      check player level > 100
+    reward: |
+      tell "&f"
+      tell color "&{#645CBB}发现&{#A084DC}了宝&{#BFACE2]藏啦"
+      tell "&f"
